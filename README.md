@@ -88,10 +88,10 @@ pip3 install psycopg2-binary==2.9.5
          db_table = 'arepas' #nombre de instancia con la que llamamos la tabla en la Base de Datos
 
 ## Migrar los datos de models.py a la base de datos 
-- python manage.py makemigrations nombre_app
+- python3 manage.py makemigrations nombre_app
 
 ## crear la tabla en la base de datos de Postgres
-- python manage.py migrate
+- python3 manage.py migrate
 
 # Vistas Genéricas
 
