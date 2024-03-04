@@ -261,7 +261,7 @@ El Framework Bootstrap 4 nos permite crear interfaces HTML de manera rápida, as
 
 Ahora instalaré el paquete django-widget-tweaks que me permite renderizar y gestionar los campos de los formularios de manera ágil, ejecuto el siguiente comando para instalarlo:
 
-- pip install django-widget-tweaks 
+- pip3 install django-widget-tweaks 
 
 ### Agregar al settings Bootstrap 4 y Widget Tweaks
 
@@ -276,7 +276,7 @@ En el archivo settings.py:
     
     #Las rutas para las imágenes de cada registro o arepas 
     MEDIA_URL = '/arepas/'
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'arepas/static/uploads')
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'nombre_app/static/uploads')
     
     # Activamos 'CookieStorage' que nos permite enviar los mensajes de respuesta al Crear, Eliminar y Actualizar un registro
     MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
@@ -460,5 +460,12 @@ Dentro de esta vista vamos a mostrar los detalles de un archivo independientemen
             <a href="../" type="submit" class="btn btn-primary">Volver</a>
         
         </form> 
+## ejecutar la aplicación
+
+estando en la carpeta raiz, donde se encuentra el archivo manage.py, ponemos:
+
+{% filename %}
+
+    python3 manage.py runserver 0.0.0.0:numeroDePuerto
 
 by GHS
