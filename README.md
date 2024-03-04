@@ -28,7 +28,7 @@ El modelo para el desarrollo de este CRUD, se toma del equipo MergeTeam, del cur
 
 ### Crear una aplicación (app) en Django
 
-- python manage.py startapp nombre_app
+- python3 manage.py startapp nombre_app
     - Registrar una app en el proyecto:
         -  En settings.py, este archivo se encuentra en nombre_proyecto > nombre_proyecto > settings.py 
         -  Abro el archivo settings.py y voy a la sección que dice INSTALLED_APPS y registro la app. Al pongo ('nombre_app',) 
