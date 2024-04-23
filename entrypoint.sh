@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 echo "Migraciones"
 python manage.py makemigrations inventario

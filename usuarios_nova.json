@@ -108,7 +108,7 @@
   "model": "usuarios.administradorduenio",
   "pk": 2,
   "fields": {
-    "nombreUsuario": "Valeria",
+    "nombreUsuario": "Vale",
     "clave": "81dc9bdb52d04dc20036dbd8313ed055",
     "tipo": "ADMIN"
   }
@@ -117,7 +117,7 @@
   "model": "usuarios.administradorduenio",
   "pk": 3,
   "fields": {
-    "nombreUsuario": "Emily",
+    "nombreUsuario": "Em",
     "clave": "81dc9bdb52d04dc20036dbd8313ed055",
     "tipo": "ADMIN"
   }
