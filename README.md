@@ -58,6 +58,8 @@ El modelo para el desarrollo de este CRUD, se toma del equipo MergeTeam, del cur
 ## Hacer la conexión de la base de datos con Django
 - Intalar el conector, usando:\
 pip3 install psycopg2-binary==2.9.5
+- sino funciona, pruebe con:
+    -     python -m pip install psycopg2-binary   
 
 ## configurar la base de datos 
 - En el settings.py/
