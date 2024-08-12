@@ -1,3 +1,5 @@
+
+
 # MergeTeam 
 
 [![postgreSQL version](https://img.shields.io/badge/Django-v2.0_v3.0-purple.svg?style=flat-square)](https://www.postgresql.org/)
@@ -16,6 +18,9 @@ El modelo para el desarrollo de este CRUD, se toma del equipo MergeTeam, del cur
 - pip3 install virtualenv
 - python3 -m venv nombre_ambiente
 - source nombre_ambiente/bin/activate  #ingresar al ambiente
+- Si su ambiente no se activa, use estos dos comandos:
+    -     Get-ExecutionPolicy
+    -     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Django 
 ### Instalar dajngo  
