@@ -16,8 +16,8 @@ El modelo para el desarrollo de este CRUD, se toma del equipo MergeTeam, del cur
 ### Instalar el ambiente virtual (esto es opcional, solo si no se quiere usar toda la maquina, sino solo ambiente virtual)
 
 - pip3 install virtualenv
-- python3 -m venv nombre_ambiente
-- source nombre_ambiente/bin/activate  #ingresar al ambiente
+- python -m venv nombre_ambiente
+- ./nombre_ambiente/Scripts/activate  #ingresar al ambiente
 - Si su ambiente no se activa, use estos dos comandos:
     -     Get-ExecutionPolicy
     -     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
