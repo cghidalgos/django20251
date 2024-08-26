@@ -59,7 +59,7 @@ El modelo para el desarrollo de este CRUD, se toma del equipo MergeTeam, del cur
 - Intalar el conector, usando:
 pip install psycopg2-binary==2.9.5
 - Tambien instalar:
-    -     python -m pip install psycopg2-binar
+    -     python -m pip install psycopg2-binary
     -     pip install psycopg2
     -     pip install psycopg   
 
