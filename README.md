@@ -15,7 +15,7 @@ El modelo para el desarrollo de este CRUD, se toma del equipo MergeTeam, del cur
 
 ### Instalar el ambiente virtual (esto es opcional, solo si no se quiere usar toda la maquina, sino solo ambiente virtual)
 
-- pip3 install virtualenv
+- pip install virtualenv
 - python -m venv nombre_ambiente
 - ./nombre_ambiente/Scripts/activate  #ingresar al ambiente
 - Si su ambiente no se activa, use estos dos comandos:
@@ -25,7 +25,7 @@ El modelo para el desarrollo de este CRUD, se toma del equipo MergeTeam, del cur
 # Django 
 ### Instalar dajngo  
 
-- pip3 install django
+- pip install django
 
 ### Crear un nuevo proyecto en Django
 
@@ -57,9 +57,11 @@ El modelo para el desarrollo de este CRUD, se toma del equipo MergeTeam, del cur
 
 ## Hacer la conexión de la base de datos con Django
 - Intalar el conector, usando:
-pip3 install psycopg2-binary==2.9.5
-- sino funciona, pruebe con:
-    -     python -m pip install psycopg2-binary   
+pip install psycopg2-binary==2.9.5
+- Tambien instalar:
+    -     python -m pip install psycopg2-binar
+    -     pip install psycopg2
+    -     pip install psycopg   
 
 ## configurar la base de datos 
 - En el settings.py/
@@ -95,10 +97,10 @@ pip3 install psycopg2-binary==2.9.5
          db_table = 'arepas' #nombre de instancia con la que llamamos la tabla en la Base de Datos
 
 ## Migrar los datos de models.py a la base de datos 
-- python3 manage.py makemigrations nombre_app
+- python manage.py makemigrations nombre_app
 
 ## crear la tabla en la base de datos de Postgres
-- python3 manage.py migrate
+- python manage.py migrate
 
 # Vistas Genéricas
 
